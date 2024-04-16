@@ -1,15 +1,17 @@
 # Tailwind CSS Mini Projects
 
 Welcome to my Tailwind CSS mini projects repository! This repository contains a collection of small projects that I've created to practice using Tailwind CSS.
+
 About Tailwind CSS
+Tailwind CSS is a utility-first CSS framework that allows you to rapidly build custom designs without having to leave your HTML.
 
-# Tailwind CSS is a utility-first CSS framework that allows you to rapidly build custom designs without having to leave your HTML.
-Projects
+#Projects
 
-# Here's a brief overview of the mini projects included in this repository:
+Here's a brief overview of the mini projects included in this repository:
  1 - Email Subscribe Form: A simple email subscription form with a background image.
  2 - Price Holder: A placeholder component to showcase product pricing.
  3-  Product Modal: A modal component for displaying product details.
+ 
 # Getting Started
 
 To get started with these mini projects
