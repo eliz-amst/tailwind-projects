@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          colors: {
+            tahiti: '#E1E5E9',
+            silver: '#CCDEE9',
+            bubble: '#8CA5BD',
+            bermuda: '#9E6B43',
+          },
+        },
+      };
+    </script>
+    <title>Email-subscribe</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center h-screen bg-silver">
+      <div class="bg-bubble p-2 mx-6 rounded-2xl">
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <img
+            src="background2.jpg"
+            alt=""
+            class="object-fit rounded-xl h-80 md:rounded-l-xl md:rounded-r-none md:max-w-xs md:object-cover hover:scale-105 hover:rounded-xl duration-200"
+          />
+          <div class="p-6 md:p-12">
+            <h2
+              class="font-serif text-xl font-medium text-center text-white md:text-left"
+            >
+              Lorem ipsum dolor sit amet.
+            </h2>
+            <p
+              class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              assumenda cupiditate enim optio. Consequuntur ex aspernatur dolore
+              minus odio. Magnam nostrum ipsa, cum reiciendis doloribus nihil
+              molestiae? Illum, facilis eos?
+            </p>
+            <div
+              class="flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0"
+            >
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="p-2 px-4 text-center text-white rounded-md bg-zinc-800 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none"
+              />
+              <button
+                class="px-5 py-3 text-xs rounded-md bg-bermuda hover:bg-silver hover:text-white duration-500"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
