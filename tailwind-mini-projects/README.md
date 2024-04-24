@@ -11,7 +11,6 @@ Welcome to my Tailwind CSS mini projects repository! This repository contains a 
 Here's a brief overview of the mini projects included in this repository:
 
 1. **Email Subscribe Form:** A simple email subscription form with a background image.
-   
 2. **Price Holder:** A placeholder component to showcase product pricing.
 
 3. **Product Modal:** A modal component for displaying product details.
